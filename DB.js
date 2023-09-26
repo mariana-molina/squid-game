@@ -598,6 +598,7 @@ const rawData = `85 23 65 78 93
 12 40  3  0 30
 46 50 48 76  5`;
 
+// Convert raw data into usable data
 const boardsIntoArrays = rawData.split(/\s+/);
 
 const convertStringToNumber = arr => {
